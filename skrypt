@@ -1,7 +1,11 @@
-echo "# skrypt-sub" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/szyszka373/skrypt-sub.git
-git push -u origin main
+let liczbaSubskrybcji = prompt("Poniżej wpisz liczbę subskrybcji (max 1000)");
+if (liczbaSubskrybcji > 1000) {
+alert("Przekroczyłeś maxymalną ilość subskrybcji!")
+   } else {
+alert("Twoje " + liczbaSubskrybcji + " subskrybcji zostanie dodane w ciągu 10 minut")
+}
+
+
+
+
+
